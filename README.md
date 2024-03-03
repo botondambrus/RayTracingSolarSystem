@@ -1,4 +1,4 @@
-# Ray-Traced Solar System in OpenGL
+# Ray tracing solar system in OpenGL
 
 This project is a OpenGL application that models a solar system using ray tracing techniques. The solar system consists of various planets and one or more suns, which are traced onto the screen using rays.
 
