@@ -9,9 +9,12 @@ In this project, I undertook the following tasks:
 1. **Implementation of Ray Tracing Shader:** I was responsible for implementing the ray tracing algorithm in the shader. This shader is responsible for tracing the rays, checking for intersections with objects, and simulating shadow effects.
 
 2. **Dynamic Adjustment of Ray Tracing Depth:**
-I implemented functionality to dynamically adjust the depth of ray tracing using buttons in the user interface. Users can increase or decrease the maximum depth of ray tracing during runtime
+   I implemented functionality to dynamically adjust the depth of ray tracing using buttons in the user interface. Users can increase or decrease the maximum depth of ray tracing during runtime
 
 ## Screenshots
+
 Below are some screenshots showcasing the project.
 
-
+![Solar system](screenshots/ss3.png)
+![Solar system2](screenshots/ss2.png)
+![Solar system3](screenshots/ss1.png)
