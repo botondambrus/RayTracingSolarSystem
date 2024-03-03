@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{d4e232ef-082a-434a-9cad-b5dee925503e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{05af772e-7d77-4ebb-9843-8570dca83239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Fragment Shaders">
+      <UniqueIdentifier>{2abf3006-808b-4494-b5dd-b5efd42899f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Vertex shaders">
+      <UniqueIdentifier>{061b10cc-6f37-4476-ab12-84fbe44db240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\Skybox">
+      <UniqueIdentifier>{f44578e4-5f21-40e8-8b72-345a68a04c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{dc23567b-95ef-4ee1-a84d-b8deb4c26e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\OpenGL">
+      <UniqueIdentifier>{157b0e0e-96c5-4fe5-b382-74c8a52ec943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{56d89596-5e69-477c-b145-fdbdd865f043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{fc2de80e-aaac-4550-9712-84cdcca2366d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGLDebug">
+      <UniqueIdentifier>{2fc2db61-c81c-4fab-9f2e-a034b1fdc1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{fd7d1bae-7085-43f4-9031-b217fe83724f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>View\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>View\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>View\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneShader.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="CanvasMesh.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystem.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="GLDebugMessageCallback.cpp">
+      <Filter>OGLDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Moon.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceObject.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>View\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>View\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>View\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CanvasMesh.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneShader.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystem.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Moveable.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDebugMessageCallback.h">
+      <Filter>OGLDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Moon.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Planets.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceObject.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="planet.frag">
+      <Filter>Resource Files\Shaders\Fragment Shaders</Filter>
+    </None>
+    <None Include="planet.vert">
+      <Filter>Resource Files\Shaders\Vertex shaders</Filter>
+    </None>
+    <None Include="default.vert">
+      <Filter>Resource Files\Shaders\Vertex shaders</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Resource Files\Shaders\Fragment Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\skybox.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\sun.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\saturn.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\uranus.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\venus.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\earth.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\jupiter.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\mars.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\mercury.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\neptune.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\left.jpg">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\right.jpg">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\top.jpg">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\back.jpg">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\bottom.jpg">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\front.jpg">
+      <Filter>Resource Files\Textures\Skybox</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
